@@ -291,7 +291,7 @@ private fun HomeFloatingActionButton(
                 contentDescription = null
             )
             // Toggle the visibility of the content with animation.
-            AnimatedVisibility (extended) {
+            AnimatedVisibility(extended) {
                 Text(
                     text = stringResource(R.string.edit),
                     modifier = Modifier
@@ -719,7 +719,7 @@ private fun Modifier.swipeToDismiss(
             }
         }
     }
-        .offset {            IntOffset(offsetX.value.roundToInt(), 0) }
+        .offset { IntOffset(offsetX.value.roundToInt(), 0) }
 
 }
 
